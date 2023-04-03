@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Axa.gov.az--React/static/css/main.be553e62.css",
+    "main.js": "/Axa.gov.az--React/static/js/main.cd6b7d9b.js",
+    "index.html": "/Axa.gov.az--React/index.html",
+    "main.be553e62.css.map": "/Axa.gov.az--React/static/css/main.be553e62.css.map",
+    "main.cd6b7d9b.js.map": "/Axa.gov.az--React/static/js/main.cd6b7d9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be553e62.css",
+    "static/js/main.cd6b7d9b.js"
+  ]
+}
