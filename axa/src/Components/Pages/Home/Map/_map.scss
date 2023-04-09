@@ -1,4 +1,6 @@
 #map{
+    background-color: #f5f5f5;
+    padding: 40px 0 70px;
     @media (max-width:762px) {
         display: none;
     }
@@ -43,7 +45,7 @@ a{
         border-radius: 5px;
         padding: 20px 14px;
         position: absolute;
-        left: 68%;
+        left: 70%;
     top: 50%;
         h4{
             color: #147d70;

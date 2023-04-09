@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 
 const Slider = () => {
   return (
-   <section>
+   <section id='slider'>
     <>
       <Swiper
         slidesPerView={1}
@@ -22,25 +22,84 @@ const Slider = () => {
           },
           768: {
             slidesPerView: 4,
-            spaceBetween: 40,
+            spaceBetween: 20,
           },
           1024: {
-            slidesPerView: 3.5,
-            spaceBetween: 50,
+            slidesPerView: 3.8,
+            spaceBetween: 10,
           },
         }}
         modules={[Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide>
+          <div className="mini_card">
+            <div className="card_img">
+            <img src="http://axa.gov.az/uploads/images/services/ekinci-1663146181-632198c51539a.webp" className="white-img"/>
+            <img src="http://axa.gov.az/uploads/images/services/ekinci-1663146181-632198c5008a5.webp" className="green-img"/>
+            </div>
+            <div className="card_txt">
+              <h5>EKTIS</h5>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="mini_card">
+            <div className="card_img">
+            <img src="http://axa.gov.az/uploads/images/services/ekinci-1663146181-632198c51539a.webp" className="white-img"/>
+            <img src="http://axa.gov.az/uploads/images/services/ekinci-1663146181-632198c5008a5.webp" className="green-img"/>
+            </div>
+            <div className="card_txt">
+              <h5>EKTIS</h5>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="mini_card">
+            <div className="card_img">
+            <img src="http://axa.gov.az/uploads/images/services/ekinci-1663146181-632198c51539a.webp" className="white-img"/>
+            <img src="http://axa.gov.az/uploads/images/services/ekinci-1663146181-632198c5008a5.webp" className="green-img"/>
+            </div>
+            <div className="card_txt">
+              <h5>EKTIS</h5>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="mini_card">
+            <div className="card_img">
+            <img src="http://axa.gov.az/uploads/images/services/ekinci-1663146181-632198c51539a.webp" className="white-img"/>
+            <img src="http://axa.gov.az/uploads/images/services/ekinci-1663146181-632198c5008a5.webp" className="green-img"/>
+            </div>
+            <div className="card_txt">
+              <h5>EKTIS</h5>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="mini_card">
+            <div className="card_img">
+            <img src="http://axa.gov.az/uploads/images/services/ekinci-1663146181-632198c51539a.webp" className="white-img"/>
+            <img src="http://axa.gov.az/uploads/images/services/ekinci-1663146181-632198c5008a5.webp" className="green-img"/>
+            </div>
+            <div className="card_txt">
+              <h5>EKTIS</h5>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="mini_card">
+            <div className="card_img">
+            <img src="http://axa.gov.az/uploads/images/services/ekinci-1663146181-632198c51539a.webp" className="white-img"/>
+            <img src="http://axa.gov.az/uploads/images/services/ekinci-1663146181-632198c5008a5.webp" className="green-img"/>
+            </div>
+            <div className="card_txt">
+              <h5>EKTIS</h5>
+            </div>
+          </div>
+        </SwiperSlide>
+   
+
       </Swiper>
     </>
    </section>

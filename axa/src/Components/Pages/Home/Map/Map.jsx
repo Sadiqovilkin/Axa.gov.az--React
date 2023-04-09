@@ -8,7 +8,7 @@ const Map = () => {
 //   const a = location[index];
 //   // console.log(a.childNodes[0].getAttribute("name"));
 //   a.addEventListener("click",()=>{
-  
+   
 //   })
 // }
 function Mapselect(e) {

@@ -1,3 +1,93 @@
-#contact{
-    
+#contact {
+  .form {
+    h4 {
+      font-size: 24px;
+      font-weight: 600;
+      color: #147d70;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      padding: 3rem 0 0;
+      label {
+        margin-bottom: 20px;
+        color: #9fa8a3;
+        font-size: 16px;
+      }
+      input {
+        border: none;
+        border-bottom: 1px solid #9fa8a3;
+        transition: 0.2s;
+        margin-bottom: 20px;
+      }
+      .robot_check {
+        border: 1px solid #d3d3d3;
+        padding: 15px 5px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        width: 50%;
+        input {
+          width: 24px;
+          height: 24px;
+          margin: 0;
+          border: 1px solid #d3d3d3;
+        }
+        span {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 17px;
+        }
+        .bg {
+          display: flex;
+          justify-content: end;
+          .icon {
+            margin-left: 35px;
+            width: 32px;
+            height: 32px;
+            background: url(https://www.gstatic.com/recaptcha/api2/logo_48.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+        }
+      }
+      button {
+        width: 50%;
+        padding: 10px 80px;
+        outline: none;
+        border: none;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #147d70;
+        border-radius: 5px;
+        transition: 0.5s ease-in-out;
+      }
+    }
+  }
+  .maps {
+    iframe {
+      width: 100%;
+      height: 270px;
+    }
+    ul{
+        padding: 0;
+        margin: 0;
+
+        li{    
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            text-align: left;
+            list-style: none;
+        }
+        .weight_li{
+            margin: 1rem 0;
+            line-height: 1.5;
+            color: #212529;
+            text-align: left;
+            font-weight: bolder;
+        }
+    }
+  }
 }
