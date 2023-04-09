@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Axa.gov.az--React/static/css/main.be553e62.css",
-    "main.js": "/Axa.gov.az--React/static/js/main.cd6b7d9b.js",
+    "main.css": "/Axa.gov.az--React/static/css/main.681376d0.css",
+    "main.js": "/Axa.gov.az--React/static/js/main.baa3126a.js",
     "index.html": "/Axa.gov.az--React/index.html",
-    "main.be553e62.css.map": "/Axa.gov.az--React/static/css/main.be553e62.css.map",
-    "main.cd6b7d9b.js.map": "/Axa.gov.az--React/static/js/main.cd6b7d9b.js.map"
+    "main.681376d0.css.map": "/Axa.gov.az--React/static/css/main.681376d0.css.map",
+    "main.baa3126a.js.map": "/Axa.gov.az--React/static/js/main.baa3126a.js.map"
   },
   "entrypoints": [
-    "static/css/main.be553e62.css",
-    "static/js/main.cd6b7d9b.js"
+    "static/css/main.681376d0.css",
+    "static/js/main.baa3126a.js"
   ]
 }
